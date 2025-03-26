@@ -1,0 +1,33 @@
+{
+    "name": "editables",
+    "version": "0.0.1",
+    "description": "A wrapper around the DataTables.net",
+    "main": "dist/editables.cjs.js",
+    "module": "dist/editables.esm.js",
+    "browser": "dist/editables.umd.js",
+    "type": "module",
+    "scripts": {
+        "build:dev": "rollup -c rollup.config.dev.mjs",
+        "build:dev:watch": "rollup -c rollup.config.dev.mjs -w"
+    },
+    "keywords": [
+        "DataTables",
+        "DataTables.net",
+        "DataTables.net-dt"
+    ],
+    "author": "Anas Youssef El Mahdad <elmahdad.anasyoussef@proton.me>",
+    "license": "ISC",
+    "packageManager": "pnpm@9.15.3+sha512.1f79bc245a66eb0b07c5d4d83131240774642caaa86ef7d0434ab47c0d16f66b04e21e0c086eb61e62c77efc4d7f7ec071afad3796af64892fae66509173893a",
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^28.0.3",
+        "@rollup/plugin-node-resolve": "^16.0.1",
+        "@rollup/plugin-typescript": "^12.1.2",
+        "datatables.net-dt": "^2.2.2",
+        "rollup": "^4.36.0",
+        "tslib": "^2.8.1",
+        "typescript": "^5.8.2"
+    },
+    "files": [
+        "dist"
+    ]
+}
